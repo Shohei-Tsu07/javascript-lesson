@@ -17,3 +17,13 @@ let languages = [
 let languagesText = `私の好きな言語は${languages[0]}です。次は${languages[3]}も勉強したいです。`;
 
 console.log(languagesText);
+
+//Q3
+let user = {
+  name: 'John',
+  age: 26,
+  bloodType: 'A',
+  favorite: 'card',
+};
+
+console.log(user.age);
