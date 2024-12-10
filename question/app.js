@@ -54,9 +54,22 @@ let ages = ( playerList[0].age + playerList[1].age + playerList[2].age);
 console.log( ages / 3);
 
 // Q6
+// (1)
 function sayHello() {
   let text = "Hello"
   console.log(text);
+  
 }
 
 sayHello();
+
+// (2)
+const sayWorld = function() {
+  return "World"
+}
+
+console.log(sayWorld());
+
+
+
+
