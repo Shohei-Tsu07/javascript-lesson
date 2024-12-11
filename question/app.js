@@ -107,7 +107,18 @@ calc.subtract(7,7);
 
 // (4)
 calc.divide = function(x,y) {
-  console.log(x % y);
+  console.log(x / y);
 };
 
-calc.divide(5,7);
+calc.divide(10,2);
+
+// Q9
+function remainder(x,y) {
+  let calc = x % y ;
+  return calc;
+}
+
+const x = 5
+const y = 3
+
+console.log(x + 'を' + y + 'で割った余りは' + remainder(x ,y) + 'です。');
