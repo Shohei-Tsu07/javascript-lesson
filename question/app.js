@@ -77,7 +77,37 @@ console.log(user.birthday);
 // (2)
 user.sayHello = function(){
   console.log('Hello!');
-}
+};
 
 user.sayHello();
 
+// Q8
+// (1)
+let calc = {
+ add:function(x,y) {
+  console.log(x + y);
+ }
+};
+
+calc.add(5,2);
+
+// (2)
+calc.subtract = function(x,y) {
+  console.log(x - y);
+};
+
+calc.subtract(12,2);
+
+// (3)
+calc.subtract = function(x,y) {
+  console.log(x * y);
+};
+
+calc.subtract(7,7);
+
+// (4)
+calc.divide = function(x,y) {
+  console.log(x % y);
+};
+
+calc.divide(5,7);
