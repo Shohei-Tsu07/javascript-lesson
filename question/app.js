@@ -2,7 +2,7 @@
 // Q1
 let nickname = 'ごっしー';
 let age = 28;
-let greet = '私のニックネームは' + nickname + 'です。' + '年齢は' + age + '歳です。';
+let greet = '私のニックネームは' + nickname + 'です。年齢は' + age + '歳です。';
 
 console.log(greet);
 
@@ -169,6 +169,4 @@ console.log('not number');
     console.log('odd');
     
   }
-}
-
-// console.log(mixed);
+};
