@@ -1,3 +1,4 @@
+//  基礎問題
 // Q1
 let nickname = 'ごっしー';
 let age = 28;
@@ -125,3 +126,9 @@ console.log(x + 'を' + y + 'で割った余りは' + remainder(x ,y) + 'です�
 
 // Q10
 // let(x)のスコープは関数fooの中までのため、スコープ外にあるconsole.logはスコープ内のlet(x)の値を参照できないためエラーが起きます。
+
+// 応用問題
+// Q1
+let random = Math.random();
+console.log(random);
+
