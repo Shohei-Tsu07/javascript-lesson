@@ -132,3 +132,8 @@ console.log(x + 'を' + y + 'で割った余りは' + remainder(x ,y) + 'です�
 let random = Math.random();
 console.log(random);
 
+// Q2
+setTimeout(() => {
+  console.log('Hello World!');
+},
+3000);
