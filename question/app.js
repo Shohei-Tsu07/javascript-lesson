@@ -1,17 +1,17 @@
 // Q1
-let nickname = "ごっしー";
+let nickname = 'ごっしー';
 let age = 28;
-let greet = "私のニックネームは" + nickname + "です。" + "年齢は" + age + "歳です。";
+let greet = '私のニックネームは' + nickname + 'です。' + '年齢は' + age + '歳です。';
 
 console.log(greet);
 
 // Q2
 let languages = [
-  "JavaScript", 
-  "PHP",
-  "Ruby",
-  "Python",
-  "Go",
+  'JavaScript', 
+  'PHP',
+  'Ruby',
+  'Python',
+  'Go',
 ]
 
 let languagesText = `私の好きな言語は${languages[0]}です。次は${languages[3]}も勉強したいです。`;
@@ -56,20 +56,28 @@ console.log( ages / 3);
 // Q6
 // (1)
 function sayHello() {
-  let text = "Hello"
+  let text = 'Hello'
   console.log(text);
-  
 }
 
 sayHello();
 
 // (2)
 const sayWorld = function() {
-  return "World"
+  return 'World'
 }
 
 console.log(sayWorld());
 
+// Q7
+// (1)
+user.birthday = '2000-09-27';
+console.log(user.birthday);
 
+// (2)
+user.sayHello = function(){
+  console.log('Hello!');
+}
 
+user.sayHello();
 
